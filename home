@@ -17,7 +17,7 @@
             background-image: url(https://i.ibb.co/6t7K24K/Screenshot-2023-11-30-00-01-29.png); /* Vervang #HEADER met de werkelijke link naar de headerafbeelding */
             background-size: cover;
             background-position: center;
-            color: #4CAF50; /* Groene tekstkleur */
+            color: #fff; /* Witte tekstkleur */
             text-align: center;
             padding: 1em;
         }
@@ -72,6 +72,22 @@
             width: 100%;
             margin-top: 10px;
         }
+
+        /* Aanpassingen voor betere leesbaarheid van de tekst in de header */
+        header h1 {
+            background-color: #4CAF50; /* Groene achtergrondkleur */
+            display: inline;
+            padding: 0.5em;
+            border-radius: 5px;
+        }
+
+        /* Nieuwe stijl voor boekingenpagina */
+        #boekingen {
+            background-color: #f8f4e3; /* Zachte crèmekleurige achtergrond */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 <body>
@@ -81,11 +97,11 @@
     </header>
 
     <nav>
-        <a href="home.html">Home</a>
-        <a href="bio.html">Biografie</a>
-        <a href="lied.html">Nieuw Lied</a>
-        <a href="contact.html">Contact</a>
-        <a href="boekingen.html">Boekingen</a>
+        <a href="#home">Home</a>
+        <a href="#bio">Biografie</a>
+        <a href="#lied">Nieuw Lied</a>
+        <a href="#contact">Contact</a>
+        <a href="#boekingen">Boekingen</a>
     </nav>
 
     <main>
@@ -95,11 +111,33 @@
                 Ontdek het verhaal en de muziek van de getalenteerde Groningse zanger, Kale Martijn.
             </p>
         </section>
-    </main>
 
-    <footer>
-        &copy; 2023 Kale Martijn - Groningse Zanger
-    </footer>
+        <section id="bio">
+            <h2>Biografie</h2>
+            <img src="https://i.ibb.co/YZRr6qY/Screenshot-2023-11-29-23-25-04.png" alt="Kale Martijn" style="max-width: 100%; border-radius: 5px; margin-bottom: 15px;">
+            <p>
+                Martijn Sluis, beter bekend als Kale Martijn, is een 53-jarige zanger uit Groningen. Hij is opgegroeid in Beijum en heeft zijn hart gevolgd naar Vlieland, waar hij in de horeca heeft gewerkt. Na zijn carrière in de horeca volgde hij zijn passie voor muziek en werd een troubadour, reizend door de noordelijke provincies en optredend op braderieën in Drenthe, Groningen en Friesland.
+            </p>
+        </section>
 
-</body>
-</html>
+        <section id="lied">
+            <h2>Nieuw Lied voor RTV Noord Medewerkers</h2>
+            <p>
+                Beste medewerkers van RTV Noord,
+            </p>
+            <p>
+                Het is met spijt dat ik vernomen heb van de begrotingsbezuinigingen en het onvermijdelijke afscheid van collega's. In deze moeilijke tijden wil ik mijn steun betuigen door middel van muziek.
+            </p>
+            <p>
+                Hierbij presenteer ik jullie een speciaal geschreven lied dat hopelijk wat troost en solidariteit brengt in deze uitdagende periode.
+            </p>
+            <audio controls>
+                <source src="https://audio.jukehost.co.uk/VN2w8zlmYqiiJ73p5YqqWUqlaH5zPrMg.mp3" type="audio/mp3">
+                Uw browser ondersteunt de audio-tag niet.
+            </audio>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                Neem contact op met Kale Martijn via e-mail: <a href="mailto:kalemartijn@gmail.com">kalemartijn@gmail.com</a>.
