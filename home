@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kale Martijn - Groningse Zanger</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f4e3; /* Zachte crèmekleurige achtergrond */
+            color: #2e2e2e; /* Donkere tekstkleur */
+        }
+
+        header {
+            background-image: url(https://i.ibb.co/6t7K24K/Screenshot-2023-11-30-00-01-29.png); /* Vervang #HEADER met de werkelijke link naar de headerafbeelding */
+            background-size: cover;
+            background-position: center;
+            color: #4CAF50; /* Groene tekstkleur */
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #d9bf8e; /* Zachte bruine achtergrondkleur voor navigatiebalk */
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #4c331e; /* Donkere bruine tekstkleur voor navigatielinks */
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+            border-radius: 5px;
+            background-color: #fff; /* Witte achtergrondkleur voor navigatielinks */
+        }
+
+        nav a:hover {
+            background-color: #8c5d3f; /* Donkerder bruine achtergrondkleur bij hover */
+            color: #fff; /* Witte tekstkleur bij hover */
+        }
+
+        main {
+            background-color: #fff; /* Witte achtergrondkleur voor de hoofdinhoud */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #8c5d3f; /* Bruine tekstkleur voor hoofdkoppen */
+        }
+
+        p {
+            line-height: 1.6;
+            color: #2e2e2e; /* Donkere tekstkleur voor normale tekst */
+        }
+
+        footer {
+            background-color: #8c5d3f; /* Bruine achtergrondkleur voor footer */
+            color: #fff; /* Witte tekstkleur voor footer */
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Kale Martijn - Groningse Zanger</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="bio.html">Biografie</a>
+        <a href="lied.html">Nieuw Lied</a>
+        <a href="contact.html">Contact</a>
+        <a href="boekingen.html">Boekingen</a>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Welkom bij de officiële website van Kale Martijn</h2>
+            <p>
+                Ontdek het verhaal en de muziek van de getalenteerde Groningse zanger, Kale Martijn.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2023 Kale Martijn - Groningse Zanger
+    </footer>
+
+</body>
+</html>
